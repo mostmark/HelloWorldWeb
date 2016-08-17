@@ -43,7 +43,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<body>");
             out.println("<h1>Servlet HelloServlet at " + request.getContextPath() + "</h1>");
             out.println("<p>The time is " + TimeAndDateUtil.getInstance().getTime() + "</p>");
-            //out.println("<p>Running on host " + java.net.InetAddress.getLocalHost().getHostName() + "</p>");
+            out.println("<p>Running on host " + java.net.InetAddress.getLocalHost().getHostName() + "</p>");
             out.println("</body>");
             out.println("</html>");
         }
